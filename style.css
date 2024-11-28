@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.line{
+    background-color: black;
+    height: 2px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(233, 236, 248);
+    height: 50px;
+}
+
+.pp{
+    display: flex;
+    align-items: center;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(69, 168, 248);
+    height: 40px;
+}
+
+.libros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dddddd;
+    height: 60px;
+}
+
+.row{
+    display: flex;
+}
+
+.col-1,
+.col-2,
+.col-3{
+
+    flex: 1;
+    margin: 10;
+    padding: 10;
+    
+    background-color: #dddddd;
+}
+
+.col-2{
+    flex: 1;
+    padding: 10;
+    margin: 10;
+
+    background-color: #dddddd;
+}
+
+.col-3{
+    flex: 1;
+    padding: 10;
+    margin: 10;
+    background-color: #dddddd;
+}
+
+.libros2{
+    display: flex; 
+    justify-content: space-between;
+}
+
+.img1{
+    width: 200px;
+}
+
+#mielemento{
+    background-color: darkred;
+}
+
+.parrafo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
